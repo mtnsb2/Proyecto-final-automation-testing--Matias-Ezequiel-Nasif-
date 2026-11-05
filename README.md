@@ -1,11 +1,11 @@
-# TESTS PREENTREGA
+# TESTS PROYECTO FINAL
                                                        
-Preentrega de proyecto QA Automation cursada 26221 saucedemo.com                                
+Proyecto final QA Automation cursada 26221 saucedemo.com                                
 ## Objetivos del proyecto
 - Mostrar conocimientos adquiridos en clases virtuales
 - Realizar pruebas en distintas secciones de la URL indicada (www.saucedemo.com)
 - Utilizacion del software detallado en README
-- Creacion de proyecto para ser utilizado en parte de la entrega final
+- Entrega del proyecto final utilizando lo ya aplicado en la preentrega y conocimientos adquiridos posteriormente
 ## Tecnologia/software y utilizado                   
 - Visual Code Studio                               
 - Python              
@@ -13,6 +13,9 @@ Preentrega de proyecto QA Automation cursada 26221 saucedemo.com
 - git
 - pytest                        
 - Selenium
+- CSV
+- Json
+- Requests
 ## Links de software utilizado
 - https://code.visualstudio.com/
 - https://www.python.org/
@@ -21,6 +24,7 @@ Preentrega de proyecto QA Automation cursada 26221 saucedemo.com
 ``` 
 - pip install -U pytest
 - pip install selenium
+- pip install requests
 ```
 ## Comandos utilizados para git
 ```

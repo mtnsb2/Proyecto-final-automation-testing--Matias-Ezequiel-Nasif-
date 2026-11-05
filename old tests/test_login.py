@@ -22,7 +22,7 @@ def test_login():
         contraseña.send_keys("secret_sauce")
         boton_login.click()  
         assert driver.current_url=="https://www.saucedemo.com/inventory.html",\
-        print("Login fallido,URL no esperada.")
+        print("\nLogin fallido,URL no esperada.")
         print("\nLogin correcto.")
     
         
