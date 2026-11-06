@@ -11,21 +11,18 @@ class InventorioPage:
     def obtener_productos(self):
         return self.driver.find_elements(By.CLASS_NAME,"inventory_item")
     
-    def obtener_nombre_primer_producto(self):
+    def obtener_nombre_productos_index(self,index):
         producto = self.obtener_productos()
+        return producto[index].find_element(By.CLASS_NAME,"inventory_item_name").text
         
-        return producto[0].find_element(By.CLASS_NAME,"inventory_item_name").text
-        #lo mismo con precio
-        
-    def obtener_precios(self):
-        return self.driver.find_elements(By.CLASS_NAME,"inventory_item")
+    '''def obtener_precios(self):
+        return self.driver.find_elements(By.CLASS_NAME,"inventory_item")'''
       
-    def obtener_precio_primer_producto(self):
-        precio =self.obtener_precios()
-        
-        return precio[0].find_element(By.CLASS_NAME,"inventory_item_price").text
+    def obtener_precio_productos_index(self,index):
+        precio =self.obtener_productos()
+        return precio[index].find_element(By.CLASS_NAME,"inventory_item_price").text
     
-    def menu_visibule(self):
+    def menu_visible(self):
         menu = self.driver.find_element(By.ID,"react-burger-menu-btn")
         
         return menu.is_displayed()

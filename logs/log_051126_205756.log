@@ -1,0 +1,57 @@
+2026-11-05 20:57:56,695 INFO Entrega_talento_tech - Inicio Pruebas de API
+2026-11-05 20:57:56,696 INFO Entrega_talento_tech - Verificacion de Json
+2026-11-05 20:57:57,184 INFO Entrega_talento_tech - Verificacion nivel 1
+2026-11-05 20:57:57,184 INFO Entrega_talento_tech - Verificacion nivel 2
+2026-11-05 20:57:57,184 INFO Entrega_talento_tech - Verificacion nivel 3
+2026-11-05 20:57:57,184 INFO Entrega_talento_tech - Verificacion nivel 4
+2026-11-05 20:57:57,184 INFO Entrega_talento_tech - Verificacion de tiempo
+2026-11-05 20:57:57,184 INFO Entrega_talento_tech - Prueba verificacion de Json exitosa
+2026-11-05 20:57:57,188 INFO Entrega_talento_tech - Prueba api POST
+2026-11-05 20:57:57,189 INFO Entrega_talento_tech - Aplicando comando POST
+2026-11-05 20:57:57,670 INFO Entrega_talento_tech - Verificacion aplicacion de POST
+2026-11-05 20:57:57,670 INFO Entrega_talento_tech - Verificacion nivel 1
+2026-11-05 20:57:57,670 INFO Entrega_talento_tech - Verificacion nivel 2
+2026-11-05 20:57:57,670 INFO Entrega_talento_tech - Verificacion nivel 3
+2026-11-05 20:57:57,670 INFO Entrega_talento_tech - Verificacion nivel 4
+2026-11-05 20:57:57,670 INFO Entrega_talento_tech - Verificacion de tiempo
+2026-11-05 20:57:57,670 INFO Entrega_talento_tech - Prueba api POST exitosa 
+2026-11-05 20:57:57,672 INFO Entrega_talento_tech - Prueba api DELETE
+2026-11-05 20:57:57,673 INFO Entrega_talento_tech - Aplicando comando DELETE
+2026-11-05 20:57:57,934 INFO Entrega_talento_tech - Verificacion aplicacion de POST
+2026-11-05 20:57:57,934 INFO Entrega_talento_tech - Verificacion nivel 1
+2026-11-05 20:57:57,934 INFO Entrega_talento_tech - Verificacion nivel 2
+2026-11-05 20:57:57,935 INFO Entrega_talento_tech - Verificacion nivel 3 Y 4
+2026-11-05 20:57:57,935 INFO Entrega_talento_tech - Verificacion de tiempo
+2026-11-05 20:57:57,935 INFO Entrega_talento_tech - Prueba api DELETE exitosa 
+2026-11-05 20:58:02,991 INFO Entrega_talento_tech - Inicio funcionalidad de carrito
+2026-11-05 20:58:02,991 INFO Entrega_talento_tech - Ingreso URL
+2026-11-05 20:58:03,308 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-05 20:58:03,458 INFO Entrega_talento_tech - Pruebas de interaccion con carrito
+2026-11-05 20:58:03,763 INFO Entrega_talento_tech - Prueba de agregar productos exitosa
+2026-11-05 20:58:03,958 INFO Entrega_talento_tech - Nombre de producto agregado verificado correctamente
+2026-11-05 20:58:03,981 INFO Entrega_talento_tech - Precio de producto agregado verificado correctamente
+2026-11-05 20:58:11,728 INFO Entrega_talento_tech - Inicio pruebas de inventorio y menus
+2026-11-05 20:58:11,728 INFO Entrega_talento_tech - Ingreso a URL
+2026-11-05 20:58:12,053 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-05 20:58:12,338 INFO Entrega_talento_tech - Prueba de cantidad de productos
+2026-11-05 20:58:12,369 INFO Entrega_talento_tech - Cantidad de productos correcta
+2026-11-05 20:58:12,369 INFO Entrega_talento_tech - Pruebas de nombres y precios de productos
+2026-11-05 20:58:12,496 INFO Entrega_talento_tech - Nombre de primer producto correcto
+2026-11-05 20:58:12,540 INFO Entrega_talento_tech - Precio de primer producto correcto
+2026-11-05 20:58:12,588 INFO Entrega_talento_tech - Nombre de segundo producto correcto
+2026-11-05 20:58:12,618 INFO Entrega_talento_tech - Precio de segundo producto correcto
+2026-11-05 20:58:12,618 INFO Entrega_talento_tech - Pruebas de interaccion con sitio
+2026-11-05 20:58:12,640 INFO Entrega_talento_tech - Prueba de interaccion con menu exitosa
+2026-11-05 20:58:12,654 INFO Entrega_talento_tech - Prueba de interaccion con filtro extitosa
+2026-11-05 20:58:20,300 INFO Entrega_talento_tech - Inicio pruebas de login
+2026-11-05 20:58:20,300 INFO Entrega_talento_tech - Ingreso URL
+2026-11-05 20:58:20,623 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-05 20:58:20,774 INFO Entrega_talento_tech - Prueba de login exitosa
+2026-11-05 20:58:28,693 INFO Entrega_talento_tech - Inicio pruebas de login
+2026-11-05 20:58:28,694 INFO Entrega_talento_tech - Ingreso URL
+2026-11-05 20:58:29,055 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-05 20:58:29,381 INFO Entrega_talento_tech - Prueba de mensaje de error exitosa
+2026-11-05 20:58:37,359 INFO Entrega_talento_tech - Inicio pruebas de login
+2026-11-05 20:58:37,359 INFO Entrega_talento_tech - Ingreso URL
+2026-11-05 20:58:37,671 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-05 20:58:37,865 INFO Entrega_talento_tech - Prueba de mensaje de error exitosa

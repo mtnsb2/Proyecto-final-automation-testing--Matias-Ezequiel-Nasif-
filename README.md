@@ -20,6 +20,7 @@ Proyecto final QA Automation cursada 26221 saucedemo.com
 - https://code.visualstudio.com/
 - https://www.python.org/
 - https://github.com/
+- https://reqres.in/
 ## Comandos para instalar software en Visual Code Studio
 ``` 
 - pip install -U pytest
@@ -40,7 +41,7 @@ Proyecto final QA Automation cursada 26221 saucedemo.com
 ```
 ## Comandos utilizados para realizar pruebas con pytest
 ```
-- python -m pytest -s -v --html=reports/reporte.html 
+- python -m pytest tests/ -s -v --html=reports/reporte.html 
 ```
 
                

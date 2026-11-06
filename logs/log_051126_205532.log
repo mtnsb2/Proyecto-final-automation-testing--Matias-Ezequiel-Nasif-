@@ -1,0 +1,98 @@
+2026-11-05 20:55:33,099 INFO Entrega_talento_tech - Inicio Pruebas de API
+2026-11-05 20:55:33,100 INFO Entrega_talento_tech - Verificacion de Json
+2026-11-05 20:55:33,694 INFO Entrega_talento_tech - Verificacion nivel 1
+2026-11-05 20:55:33,694 INFO Entrega_talento_tech - Verificacion nivel 2
+2026-11-05 20:55:33,694 INFO Entrega_talento_tech - Verificacion nivel 3
+2026-11-05 20:55:33,695 INFO Entrega_talento_tech - Verificacion nivel 4
+2026-11-05 20:55:33,695 INFO Entrega_talento_tech - Verificacion de tiempo
+2026-11-05 20:55:33,695 INFO Entrega_talento_tech - Prueba verificacion de Json exitosa
+2026-11-05 20:55:33,698 INFO Entrega_talento_tech - Prueba api POST
+2026-11-05 20:55:33,698 INFO Entrega_talento_tech - Aplicando comando POST
+2026-11-05 20:55:34,183 INFO Entrega_talento_tech - Verificacion aplicacion de POST
+2026-11-05 20:55:34,183 INFO Entrega_talento_tech - Verificacion nivel 1
+2026-11-05 20:55:34,183 INFO Entrega_talento_tech - Verificacion nivel 2
+2026-11-05 20:55:34,183 INFO Entrega_talento_tech - Verificacion nivel 3
+2026-11-05 20:55:34,183 INFO Entrega_talento_tech - Verificacion nivel 4
+2026-11-05 20:55:34,183 INFO Entrega_talento_tech - Verificacion de tiempo
+2026-11-05 20:55:34,183 INFO Entrega_talento_tech - Prueba api POST exitosa 
+2026-11-05 20:55:34,186 INFO Entrega_talento_tech - Prueba api DELETE
+2026-11-05 20:55:34,186 INFO Entrega_talento_tech - Aplicando comando DELETE
+2026-11-05 20:55:34,446 INFO Entrega_talento_tech - Verificacion aplicacion de POST
+2026-11-05 20:55:34,446 INFO Entrega_talento_tech - Verificacion nivel 1
+2026-11-05 20:55:34,447 INFO Entrega_talento_tech - Verificacion nivel 2
+2026-11-05 20:55:34,447 INFO Entrega_talento_tech - Verificacion nivel 3 Y 4
+2026-11-05 20:55:34,447 INFO Entrega_talento_tech - Verificacion de tiempo
+2026-11-05 20:55:34,447 INFO Entrega_talento_tech - Prueba api DELETE exitosa 
+2026-11-05 20:55:39,569 INFO Entrega_talento_tech - Inicio funcionalidad de carrito
+2026-11-05 20:55:39,569 INFO Entrega_talento_tech - Ingreso URL
+2026-11-05 20:55:40,169 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-05 20:55:40,556 INFO Entrega_talento_tech - Pruebas de interaccion con carrito
+2026-11-05 20:55:40,732 INFO Entrega_talento_tech - Prueba de agregar productos exitosa
+2026-11-05 20:55:40,900 INFO Entrega_talento_tech - Nombre de producto agregado verificado correctamente
+2026-11-05 20:55:40,921 INFO Entrega_talento_tech - Precio de producto agregado verificado correctamente
+2026-11-05 20:55:48,746 INFO Entrega_talento_tech - Inicio pruebas de inventorio y menus
+2026-11-05 20:55:48,747 INFO Entrega_talento_tech - Ingreso a URL
+2026-11-05 20:55:49,081 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-05 20:55:49,249 INFO Entrega_talento_tech - Prueba de cantidad de productos
+2026-11-05 20:55:49,257 INFO Entrega_talento_tech - Cantidad de productos correcta
+2026-11-05 20:55:49,258 INFO Entrega_talento_tech - Pruebas de nombres y precios de productos
+2026-11-05 20:55:49,292 INFO Entrega_talento_tech - Nombre de primer producto correcto
+2026-11-05 20:55:49,377 INFO Entrega_talento_tech - Precio de primer producto correcto
+2026-11-05 20:55:49,439 INFO Entrega_talento_tech - Nombre de segundo producto correcto
+2026-11-05 20:55:49,561 ERROR Entrega_talento_tech - Error durante prueba de inventorio
+Traceback (most recent call last):
+  File "C:\Users\Basti\Desktop\PROYECTO FINAL\tests\test_inventorio2.py", line 30, in test_inventory
+    assert inventario_page.obtener_precio_productos_index(1)== "$9a.99"
+AssertionError: assert '$9.99' == '$9a.99'
+  
+  [0m[91m- $9a.99[39;49;00m[90m[39;49;00m
+  ?   -[90m[39;49;00m
+  [92m+ $9.99[39;49;00m[90m[39;49;00m
+2026-11-05 20:56:04,242 INFO Entrega_talento_tech - Inicio pruebas de inventorio y menus
+2026-11-05 20:56:04,242 INFO Entrega_talento_tech - Ingreso a URL
+2026-11-05 20:56:04,690 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-05 20:56:04,839 INFO Entrega_talento_tech - Prueba de cantidad de productos
+2026-11-05 20:56:04,841 INFO Entrega_talento_tech - Cantidad de productos correcta
+2026-11-05 20:56:04,842 INFO Entrega_talento_tech - Pruebas de nombres y precios de productos
+2026-11-05 20:56:04,855 INFO Entrega_talento_tech - Nombre de primer producto correcto
+2026-11-05 20:56:04,863 INFO Entrega_talento_tech - Precio de primer producto correcto
+2026-11-05 20:56:04,873 INFO Entrega_talento_tech - Nombre de segundo producto correcto
+2026-11-05 20:56:04,883 ERROR Entrega_talento_tech - Error durante prueba de inventorio
+Traceback (most recent call last):
+  File "C:\Users\Basti\Desktop\PROYECTO FINAL\tests\test_inventorio2.py", line 30, in test_inventory
+    assert inventario_page.obtener_precio_productos_index(1)== "$9a.99"
+AssertionError: assert '$9.99' == '$9a.99'
+  
+  [0m[91m- $9a.99[39;49;00m[90m[39;49;00m
+  ?   -[90m[39;49;00m
+  [92m+ $9.99[39;49;00m[90m[39;49;00m
+2026-11-05 20:56:19,795 INFO Entrega_talento_tech - Inicio pruebas de inventorio y menus
+2026-11-05 20:56:19,795 INFO Entrega_talento_tech - Ingreso a URL
+2026-11-05 20:56:20,494 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-05 20:56:20,739 INFO Entrega_talento_tech - Prueba de cantidad de productos
+2026-11-05 20:56:20,749 INFO Entrega_talento_tech - Cantidad de productos correcta
+2026-11-05 20:56:20,749 INFO Entrega_talento_tech - Pruebas de nombres y precios de productos
+2026-11-05 20:56:20,793 INFO Entrega_talento_tech - Nombre de primer producto correcto
+2026-11-05 20:56:20,830 INFO Entrega_talento_tech - Precio de primer producto correcto
+2026-11-05 20:56:20,864 INFO Entrega_talento_tech - Nombre de segundo producto correcto
+2026-11-05 20:56:20,884 ERROR Entrega_talento_tech - Error durante prueba de inventorio
+Traceback (most recent call last):
+  File "C:\Users\Basti\Desktop\PROYECTO FINAL\tests\test_inventorio2.py", line 30, in test_inventory
+    assert inventario_page.obtener_precio_productos_index(1)== "$9a.99"
+AssertionError: assert '$9.99' == '$9a.99'
+  
+  [0m[91m- $9a.99[39;49;00m[90m[39;49;00m
+  ?   -[90m[39;49;00m
+  [92m+ $9.99[39;49;00m[90m[39;49;00m
+2026-11-05 20:56:28,802 INFO Entrega_talento_tech - Inicio pruebas de login
+2026-11-05 20:56:28,802 INFO Entrega_talento_tech - Ingreso URL
+2026-11-05 20:56:29,119 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-05 20:56:29,445 INFO Entrega_talento_tech - Prueba de login exitosa
+2026-11-05 20:56:37,449 INFO Entrega_talento_tech - Inicio pruebas de login
+2026-11-05 20:56:37,449 INFO Entrega_talento_tech - Ingreso URL
+2026-11-05 20:56:37,887 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-05 20:56:38,341 INFO Entrega_talento_tech - Prueba de mensaje de error exitosa
+2026-11-05 20:56:46,093 INFO Entrega_talento_tech - Inicio pruebas de login
+2026-11-05 20:56:46,093 INFO Entrega_talento_tech - Ingreso URL
+2026-11-05 20:56:46,420 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-05 20:56:46,611 INFO Entrega_talento_tech - Prueba de mensaje de error exitosa

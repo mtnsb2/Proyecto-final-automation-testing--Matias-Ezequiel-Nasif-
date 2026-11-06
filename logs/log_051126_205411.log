@@ -1,0 +1,54 @@
+2026-11-05 20:54:16,824 INFO Entrega_talento_tech - Inicio pruebas de inventorio y menus
+2026-11-05 20:54:16,824 INFO Entrega_talento_tech - Ingreso a URL
+2026-11-05 20:54:17,213 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-05 20:54:17,425 INFO Entrega_talento_tech - Prueba de cantidad de productos
+2026-11-05 20:54:17,450 INFO Entrega_talento_tech - Cantidad de productos correcta
+2026-11-05 20:54:17,451 INFO Entrega_talento_tech - Pruebas de nombres y precios de productos
+2026-11-05 20:54:17,570 INFO Entrega_talento_tech - Nombre de primer producto correcto
+2026-11-05 20:54:17,693 INFO Entrega_talento_tech - Precio de primer producto correcto
+2026-11-05 20:54:17,736 INFO Entrega_talento_tech - Nombre de segundo producto correcto
+2026-11-05 20:54:17,778 ERROR Entrega_talento_tech - Error durante prueba de inventorio
+Traceback (most recent call last):
+  File "C:\Users\Basti\Desktop\PROYECTO FINAL\tests\test_inventorio2.py", line 30, in test_inventory
+    assert inventario_page.obtener_precio_productos_index(1)== "$9a.99"
+AssertionError: assert '$9.99' == '$9a.99'
+  
+  [0m[91m- $9a.99[39;49;00m[90m[39;49;00m
+  ?   -[90m[39;49;00m
+  [92m+ $9.99[39;49;00m[90m[39;49;00m
+2026-11-05 20:54:32,924 INFO Entrega_talento_tech - Inicio pruebas de inventorio y menus
+2026-11-05 20:54:32,924 INFO Entrega_talento_tech - Ingreso a URL
+2026-11-05 20:54:33,265 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-05 20:54:33,431 INFO Entrega_talento_tech - Prueba de cantidad de productos
+2026-11-05 20:54:33,437 INFO Entrega_talento_tech - Cantidad de productos correcta
+2026-11-05 20:54:33,437 INFO Entrega_talento_tech - Pruebas de nombres y precios de productos
+2026-11-05 20:54:33,476 INFO Entrega_talento_tech - Nombre de primer producto correcto
+2026-11-05 20:54:33,571 INFO Entrega_talento_tech - Precio de primer producto correcto
+2026-11-05 20:54:33,626 INFO Entrega_talento_tech - Nombre de segundo producto correcto
+2026-11-05 20:54:33,745 ERROR Entrega_talento_tech - Error durante prueba de inventorio
+Traceback (most recent call last):
+  File "C:\Users\Basti\Desktop\PROYECTO FINAL\tests\test_inventorio2.py", line 30, in test_inventory
+    assert inventario_page.obtener_precio_productos_index(1)== "$9a.99"
+AssertionError: assert '$9.99' == '$9a.99'
+  
+  [0m[91m- $9a.99[39;49;00m[90m[39;49;00m
+  ?   -[90m[39;49;00m
+  [92m+ $9.99[39;49;00m[90m[39;49;00m
+2026-11-05 20:54:48,843 INFO Entrega_talento_tech - Inicio pruebas de inventorio y menus
+2026-11-05 20:54:48,844 INFO Entrega_talento_tech - Ingreso a URL
+2026-11-05 20:54:49,141 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-05 20:54:49,411 INFO Entrega_talento_tech - Prueba de cantidad de productos
+2026-11-05 20:54:49,468 INFO Entrega_talento_tech - Cantidad de productos correcta
+2026-11-05 20:54:49,468 INFO Entrega_talento_tech - Pruebas de nombres y precios de productos
+2026-11-05 20:54:49,555 INFO Entrega_talento_tech - Nombre de primer producto correcto
+2026-11-05 20:54:49,617 INFO Entrega_talento_tech - Precio de primer producto correcto
+2026-11-05 20:54:49,656 INFO Entrega_talento_tech - Nombre de segundo producto correcto
+2026-11-05 20:54:49,697 ERROR Entrega_talento_tech - Error durante prueba de inventorio
+Traceback (most recent call last):
+  File "C:\Users\Basti\Desktop\PROYECTO FINAL\tests\test_inventorio2.py", line 30, in test_inventory
+    assert inventario_page.obtener_precio_productos_index(1)== "$9a.99"
+AssertionError: assert '$9.99' == '$9a.99'
+  
+  [0m[91m- $9a.99[39;49;00m[90m[39;49;00m
+  ?   -[90m[39;49;00m
+  [92m+ $9.99[39;49;00m[90m[39;49;00m

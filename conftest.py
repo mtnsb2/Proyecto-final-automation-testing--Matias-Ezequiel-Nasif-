@@ -1,9 +1,9 @@
 import pytest
 from selenium import webdriver
-
 import pytest_html 
 import base64 
 import pathlib
+from datetime import datetime
 
 @pytest.fixture
 def driver():
@@ -34,13 +34,20 @@ def pytest_runtest_makereport(item,call):
     if report.when == "call" and report.failed:
         driver = item.funcargs.get("driver")
         
-        folder = pathlib.Path("screenshots")
+        folder = pathlib.Path("reports/screenshots")
         folder.mkdir(parents=True,exist_ok=True)
-        file = folder / f"{item.name}.png"
+        
+        safe_name = item.name.replace("[", "_").replace("]", "_").replace(":", "_")
+        
+        timestamp = datetime.now().strftime("%d%m%y_%H%M%S")
+
+        
+        file = folder / f"({safe_name}).png"
         
         driver.save_screenshot(str(file))
         
         imagen = base64.b64encode(file.read_bytes()).decode("utf-8")
-        report.extras = [
-            pytest_html.extra.png(imagen, name="Screenshot")
-        ]
+        report.extras = []
+        
+        report.extras.append(pytest_html.extras.png(imagen, name=f"Screenshot ({safe_name}),({timestamp})"))
+        
