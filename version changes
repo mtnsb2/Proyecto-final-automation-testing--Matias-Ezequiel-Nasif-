@@ -1,50 +1,20 @@
+commit 4afdd68200852c6bb4b8ae07104caf558aa9a417
+Author: Matias <mtnsb2@gmail.com>
+Date:   Thu Nov 5 21:12:01 2026 -0300
+
+    Actualizacion Proyect Final
+
+commit 4883f977a2f5248fca4dac3305a0a3e597fc8ca5
+Author: Matias <mtnsb2@gmail.com>
+Date:   Thu Nov 5 15:10:20 2026 -0300
+
+    Version changes update
+
 commit a0d3eac535a7aff5016cbede0d9ad1a61b2c24d4
 Author: Matias <mtnsb2@gmail.com>
 Date:   Thu Nov 5 14:50:11 2026 -0300
 
     Version inicial Proyect Final
-
-M	README.md
-A	__pycache__/conftest.cpython-314-pytest-8.4.2.pyc
-M	__pycache__/conftest.cpython-314-pytest-9.1.1.pyc
-A	__pycache__/test_api.cpython-314-pytest-8.4.2.pyc
-A	__pycache__/test_carrito.cpython-314-pytest-8.4.2.pyc
-M	__pycache__/test_carrito.cpython-314-pytest-9.1.1.pyc
-A	__pycache__/test_carrito2.cpython-314-pytest-8.4.2.pyc
-A	__pycache__/test_carrito2.cpython-314-pytest-9.1.1.pyc
-A	__pycache__/test_inventorio.cpython-314-pytest-8.4.2.pyc
-M	__pycache__/test_inventorio.cpython-314-pytest-9.1.1.pyc
-A	__pycache__/test_inventorio2.cpython-314-pytest-8.4.2.pyc
-A	__pycache__/test_inventorio2.cpython-314-pytest-9.1.1.pyc
-A	__pycache__/test_login.cpython-314-pytest-8.4.2.pyc
-M	__pycache__/test_login.cpython-314-pytest-9.1.1.pyc
-A	__pycache__/test_login2.cpython-314-pytest-8.4.2.pyc
-A	__pycache__/test_login2.cpython-314-pytest-9.1.1.pyc
-A	conftest.py
-A	data/products.json
-A	data/users.csv
-A	features/environment.py
-A	features/login.feature
-A	features/steps/login_steps.py
-R100	test_carrito.py	old tests/test_carrito.py
-R100	test_inventorio.py	old tests/test_inventorio.py
-R096	test_login.py	old tests/test_login.py
-A	pages/__pycache__/carrito_page.cpython-314.pyc
-A	pages/__pycache__/inventorio_page.cpython-314.pyc
-A	pages/__pycache__/login_page.cpython-314.pyc
-A	pages/carrito_page.py
-A	pages/inventorio_page.py
-A	pages/login_page.py
-M	pytest.ini
-M	reports/reporte.html
-A	tests/test_api.py
-A	tests/test_carrito2.py
-A	tests/test_inventorio2.py
-A	tests/test_login2.py
-A	utils/__pycache__/logger.cpython-314.pyc
-A	utils/__pycache__/reader.cpython-314.pyc
-A	utils/logger.py
-A	utils/reader.py
 
 commit 2e1534238594438c3e28fa83334b5c0367c4378a
 Author: Matias <mtnsb2@gmail.com>
@@ -52,25 +22,11 @@ Date:   Wed Oct 7 20:20:43 2026 -0300
 
     Prentrega 1.02 ,bugfixes
 
-A	__pycache__/conftest.cpython-314-pytest-9.1.1.pyc
-M	__pycache__/test_login.cpython-314-pytest-9.1.1.pyc
-M	reports/reporte.html
-M	test_carrito.py
-M	test_inventorio.py
-M	test_login.py
-M	version changes
-
 commit e36a13c8b597f37632e4219eeec2171d9fb71513
 Author: Matias <mtnsb2@gmail.com>
 Date:   Mon Oct 5 19:36:12 2026 -0300
 
     Preengtrega 1.01 , bug fixes
-
-M	README.md
-M	__pycache__/test_inventorio.cpython-314-pytest-9.1.1.pyc
-M	__pycache__/test_login.cpython-314-pytest-9.1.1.pyc
-A	reports/reporte.html
-M	test_login.py
 
 commit 48a75008a261a3657de5f1db7a200c609686f43c
 Author: Matias <mtnsb2@gmail.com>
@@ -78,16 +34,11 @@ Date:   Mon Oct 5 18:54:17 2026 -0300
 
     Log de version final
 
-M	version changes
-
 commit 2fb9e0a6023dc72888304686900b02b7c5f5daeb
 Author: Matias <mtnsb2@gmail.com>
 Date:   Mon Oct 5 18:51:53 2026 -0300
 
     Preentrega 1.0 README y log de versiones
-
-A	README.md
-A	version changes
 
 commit 05a76c59b566f889686bd94c57492dd916be7b16
 Author: Matias <mtnsb2@gmail.com>
@@ -95,28 +46,14 @@ Date:   Mon Oct 5 18:49:42 2026 -0300
 
     Preentrega 1.0 test carrito
 
-A	test_carrito.py
-
 commit 24a5bdb46606631587e3eb5de7919872acab6790
 Author: Matias <mtnsb2@gmail.com>
 Date:   Mon Oct 5 18:47:38 2026 -0300
 
     Preentrega 1.0 test inventorio
 
-A	test_inventorio.py
-
 commit c40371aac4d694c728a964e36488e41e42c2d94a
 Author: Matias <mtnsb2@gmail.com>
 Date:   Mon Oct 5 18:43:36 2026 -0300
 
      Preentrega 1.0 Login
-
-A	.vscode/settings.json
-A	__pycache__/TEST_LOGSAUCE.cpython-314-pytest-9.1.1.pyc
-A	__pycache__/test_.cpython-314-pytest-9.1.1.pyc
-A	__pycache__/test_carrito.cpython-314-pytest-9.1.1.pyc
-A	__pycache__/test_inventorio.cpython-314-pytest-9.1.1.pyc
-A	__pycache__/test_login.cpython-314-pytest-9.1.1.pyc
-A	assets/style.css
-A	pytest.ini
-A	test_login.py
