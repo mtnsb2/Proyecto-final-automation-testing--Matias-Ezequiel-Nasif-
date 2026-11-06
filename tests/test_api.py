@@ -112,7 +112,7 @@ def test_eliminar_usuario(base_url,headers):
         logger.info("Aplicando comando DELETE")
         response = requests.delete (url,headers=headers)
         
-        logger.info("Verificacion aplicacion de POST")
+        logger.info("Verificacion aplicacion de DELETE")
         
         logger.info("Verificacion nivel 1")
         assert response.status_code == 204
