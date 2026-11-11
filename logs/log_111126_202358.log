@@ -1,0 +1,112 @@
+2026-11-11 20:23:58,304 INFO Entrega_talento_tech - Inicio pruebas de login
+2026-11-11 20:24:03,382 INFO Entrega_talento_tech - Ingreso URL
+2026-11-11 20:24:03,684 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-11 20:24:03,837 ERROR Entrega_talento_tech - Error durante prueba de login
+Traceback (most recent call last):
+  File "C:\Users\Basti\Desktop\PROYECTO FINAL\tests_sim_error\test_error_login.py", line 29, in test_login
+    assert "/inventorys.html" in driver.current_url
+AssertionError: assert '/inventorys.html' in 'https://www.saucedemo.com/inventory.html'
+ +  where 'https://www.saucedemo.com/inventory.html' = <selenium.webdriver.firefox.webdriver.WebDriver (session="98026c72-ecc6-47d6-a28f-17cdf6fa8022")>.current_url
+2026-11-11 20:24:18,635 INFO Entrega_talento_tech - Ingreso URL
+2026-11-11 20:24:18,893 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-11 20:24:19,163 ERROR Entrega_talento_tech - Error durante prueba de login
+Traceback (most recent call last):
+  File "C:\Users\Basti\Desktop\PROYECTO FINAL\tests_sim_error\test_error_login.py", line 29, in test_login
+    assert "/inventorys.html" in driver.current_url
+AssertionError: assert '/inventorys.html' in 'https://www.saucedemo.com/inventory.html'
+ +  where 'https://www.saucedemo.com/inventory.html' = <selenium.webdriver.firefox.webdriver.WebDriver (session="6b685029-9fc2-4ef2-b23c-17d86f9a5bbe")>.current_url
+2026-11-11 20:24:33,749 INFO Entrega_talento_tech - Ingreso URL
+2026-11-11 20:24:34,285 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-11 20:24:34,463 ERROR Entrega_talento_tech - Error durante prueba de login
+Traceback (most recent call last):
+  File "C:\Users\Basti\Desktop\PROYECTO FINAL\tests_sim_error\test_error_login.py", line 29, in test_login
+    assert "/inventorys.html" in driver.current_url
+AssertionError: assert '/inventorys.html' in 'https://www.saucedemo.com/inventory.html'
+ +  where 'https://www.saucedemo.com/inventory.html' = <selenium.webdriver.firefox.webdriver.WebDriver (session="1ef0dadb-ecde-4122-b5f2-5d62bd61a1bc")>.current_url
+2026-11-11 20:24:42,107 INFO Entrega_talento_tech - Ingreso URL
+2026-11-11 20:24:42,346 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-11 20:24:42,572 ERROR Entrega_talento_tech - Error durante prueba de login
+Traceback (most recent call last):
+  File "C:\Users\Basti\Desktop\PROYECTO FINAL\tests_sim_error\test_error_login.py", line 36, in test_login
+    assert "Epic ssadface" in error
+AssertionError: assert 'Epic ssadface' in 'Epic sadface: Username and password do not match any user in this service'
+2026-11-11 20:24:57,126 INFO Entrega_talento_tech - Ingreso URL
+2026-11-11 20:24:57,397 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-11 20:24:57,572 ERROR Entrega_talento_tech - Error durante prueba de login
+Traceback (most recent call last):
+  File "C:\Users\Basti\Desktop\PROYECTO FINAL\tests_sim_error\test_error_login.py", line 36, in test_login
+    assert "Epic ssadface" in error
+AssertionError: assert 'Epic ssadface' in 'Epic sadface: Username and password do not match any user in this service'
+2026-11-11 20:25:12,051 INFO Entrega_talento_tech - Ingreso URL
+2026-11-11 20:25:12,569 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-11 20:25:12,779 ERROR Entrega_talento_tech - Error durante prueba de login
+Traceback (most recent call last):
+  File "C:\Users\Basti\Desktop\PROYECTO FINAL\tests_sim_error\test_error_login.py", line 36, in test_login
+    assert "Epic ssadface" in error
+AssertionError: assert 'Epic ssadface' in 'Epic sadface: Username and password do not match any user in this service'
+2026-11-11 20:25:20,196 INFO Entrega_talento_tech - Inicio pruebas de inventorio y menus
+2026-11-11 20:25:20,197 INFO Entrega_talento_tech - Ingreso a URL
+2026-11-11 20:25:20,417 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-11 20:25:20,638 INFO Entrega_talento_tech - Prueba de cantidad de productos
+2026-11-11 20:25:20,656 ERROR Entrega_talento_tech - Error durante prueba de inventorio
+Traceback (most recent call last):
+  File "C:\Users\Basti\Desktop\PROYECTO FINAL\tests_sim_error\test_error_inventorio.py", line 23, in test_inventory
+    assert len(productos) == 10
+AssertionError: assert 6 == 10
+ +  where 6 = len([<selenium.webdriver.remote.webelement.WebElement (session="cac99bae-4b37-43cb-a900-262f0d9445b7", element="8a14c5ed-1a63-484d-8beb-2679213a3e05")>, <selenium.webdriver.remote.webelement.WebElement (session="cac99bae-4b37-43cb-a900-262f0d9445b7", element="d9d778bc-87b5-4e29-8916-b18ce305f0bd")>, <selenium.webdriver.remote.webelement.WebElement (session="cac99bae-4b37-43cb-a900-262f0d9445b7", element="52f8d6cf-4620-460a-bfec-b3ec792f2b61")>, <selenium.webdriver.remote.webelement.WebElement (session="cac99bae-4b37-43cb-a900-262f0d9445b7", element="dbd4a7af-5d32-400f-87c1-a42ea842b93a")>, <selenium.webdriver.remote.webelement.WebElement (session="cac99bae-4b37-43cb-a900-262f0d9445b7", element="7c1cf98a-2fdb-4ef9-a6c3-d8445e8d3c66")>, <selenium.webdriver.remote.webelement.WebElement (session="cac99bae-4b37-43cb-a900-262f0d9445b7", element="b355d4a9-086a-4d8e-abe0-41037201ed18")>])
+2026-11-11 20:25:35,308 INFO Entrega_talento_tech - Inicio pruebas de inventorio y menus
+2026-11-11 20:25:35,308 INFO Entrega_talento_tech - Ingreso a URL
+2026-11-11 20:25:35,578 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-11 20:25:35,853 INFO Entrega_talento_tech - Prueba de cantidad de productos
+2026-11-11 20:25:35,865 ERROR Entrega_talento_tech - Error durante prueba de inventorio
+Traceback (most recent call last):
+  File "C:\Users\Basti\Desktop\PROYECTO FINAL\tests_sim_error\test_error_inventorio.py", line 23, in test_inventory
+    assert len(productos) == 10
+AssertionError: assert 6 == 10
+ +  where 6 = len([<selenium.webdriver.remote.webelement.WebElement (session="5c62f226-e174-493b-a69e-99c9ee5717b3", element="67a05e92-89ec-4bc5-94d2-f56562334b9c")>, <selenium.webdriver.remote.webelement.WebElement (session="5c62f226-e174-493b-a69e-99c9ee5717b3", element="a6deadf6-0cf3-4c66-9052-3c56cb3260e4")>, <selenium.webdriver.remote.webelement.WebElement (session="5c62f226-e174-493b-a69e-99c9ee5717b3", element="339b8451-1c87-4530-8cdb-d95b4581d8ef")>, <selenium.webdriver.remote.webelement.WebElement (session="5c62f226-e174-493b-a69e-99c9ee5717b3", element="037a2cf6-0406-43f7-9d2d-9c67088b91e7")>, <selenium.webdriver.remote.webelement.WebElement (session="5c62f226-e174-493b-a69e-99c9ee5717b3", element="c7129952-5c78-4d43-8d8b-5b02437d8b5c")>, <selenium.webdriver.remote.webelement.WebElement (session="5c62f226-e174-493b-a69e-99c9ee5717b3", element="e03aac6e-900d-4d4f-9158-3380c476c86b")>])
+2026-11-11 20:25:50,382 INFO Entrega_talento_tech - Inicio pruebas de inventorio y menus
+2026-11-11 20:25:50,382 INFO Entrega_talento_tech - Ingreso a URL
+2026-11-11 20:25:51,274 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-11 20:25:51,391 INFO Entrega_talento_tech - Prueba de cantidad de productos
+2026-11-11 20:25:51,393 ERROR Entrega_talento_tech - Error durante prueba de inventorio
+Traceback (most recent call last):
+  File "C:\Users\Basti\Desktop\PROYECTO FINAL\tests_sim_error\test_error_inventorio.py", line 23, in test_inventory
+    assert len(productos) == 10
+AssertionError: assert 6 == 10
+ +  where 6 = len([<selenium.webdriver.remote.webelement.WebElement (session="5de5b2de-a3f7-409a-b85e-fc6d08b693e8", element="b4c9c5c0-ddba-462c-870c-406fee8cea2c")>, <selenium.webdriver.remote.webelement.WebElement (session="5de5b2de-a3f7-409a-b85e-fc6d08b693e8", element="760507f5-dc6c-4a28-aeda-1b67046308d4")>, <selenium.webdriver.remote.webelement.WebElement (session="5de5b2de-a3f7-409a-b85e-fc6d08b693e8", element="6fa3fbea-ef4f-40d9-af28-c425445c39e4")>, <selenium.webdriver.remote.webelement.WebElement (session="5de5b2de-a3f7-409a-b85e-fc6d08b693e8", element="2d730e0a-2747-4b4e-aa6b-4de42a12cf70")>, <selenium.webdriver.remote.webelement.WebElement (session="5de5b2de-a3f7-409a-b85e-fc6d08b693e8", element="7b0310c5-7fa9-4c36-b38a-494669edc922")>, <selenium.webdriver.remote.webelement.WebElement (session="5de5b2de-a3f7-409a-b85e-fc6d08b693e8", element="7e81ace1-696c-48f9-8049-4734150690c3")>])
+2026-11-11 20:25:58,918 INFO Entrega_talento_tech - Inicio funcionalidad de carrito
+2026-11-11 20:25:58,918 INFO Entrega_talento_tech - Ingreso URL
+2026-11-11 20:25:59,142 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-11 20:25:59,381 INFO Entrega_talento_tech - Pruebas de interaccion con carrito
+2026-11-11 20:25:59,525 ERROR Entrega_talento_tech - Error durante prueba de carrito
+Traceback (most recent call last):
+  File "C:\Users\Basti\Desktop\PROYECTO FINAL\tests_sim_error\test_error_carrito.py", line 29, in test_carrito
+    assert inventario_page.buscar_carrito() == "2"
+AssertionError: assert '1' == '2'
+  
+  [0m[91m- 2[39;49;00m[90m[39;49;00m
+  [92m+ 1[39;49;00m[90m[39;49;00m
+2026-11-11 20:26:14,034 INFO Entrega_talento_tech - Inicio funcionalidad de carrito
+2026-11-11 20:26:14,034 INFO Entrega_talento_tech - Ingreso URL
+2026-11-11 20:26:14,275 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-11 20:26:14,567 INFO Entrega_talento_tech - Pruebas de interaccion con carrito
+2026-11-11 20:26:14,752 ERROR Entrega_talento_tech - Error durante prueba de carrito
+Traceback (most recent call last):
+  File "C:\Users\Basti\Desktop\PROYECTO FINAL\tests_sim_error\test_error_carrito.py", line 29, in test_carrito
+    assert inventario_page.buscar_carrito() == "2"
+AssertionError: assert '1' == '2'
+  
+  [0m[91m- 2[39;49;00m[90m[39;49;00m
+  [92m+ 1[39;49;00m[90m[39;49;00m
+2026-11-11 20:26:29,143 INFO Entrega_talento_tech - Inicio funcionalidad de carrito
+2026-11-11 20:26:29,143 INFO Entrega_talento_tech - Ingreso URL
+2026-11-11 20:26:29,663 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-11 20:26:29,904 INFO Entrega_talento_tech - Pruebas de interaccion con carrito
+2026-11-11 20:26:29,995 ERROR Entrega_talento_tech - Error durante prueba de carrito
+Traceback (most recent call last):
+  File "C:\Users\Basti\Desktop\PROYECTO FINAL\tests_sim_error\test_error_carrito.py", line 29, in test_carrito
+    assert inventario_page.buscar_carrito() == "2"
+AssertionError: assert '1' == '2'
+  
+  [0m[91m- 2[39;49;00m[90m[39;49;00m
+  [92m+ 1[39;49;00m[90m[39;49;00m

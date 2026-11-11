@@ -1,0 +1,70 @@
+2026-11-11 19:14:24,743 INFO Entrega_talento_tech - Inicio pruebas de login
+2026-11-11 19:14:29,824 INFO Entrega_talento_tech - Ingreso URL
+2026-11-11 19:14:30,617 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-11 19:14:30,784 INFO Entrega_talento_tech - Prueba de login exitosa
+2026-11-11 19:14:38,316 INFO Entrega_talento_tech - Ingreso URL
+2026-11-11 19:14:38,564 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-11 19:14:38,942 ERROR Entrega_talento_tech - Error durante prueba de login
+Traceback (most recent call last):
+  File "C:\Users\Basti\Desktop\PROYECTO FINAL\tests\test_login2.py", line 36, in test_login
+    assert "Epic sadfaces" in error
+AssertionError: assert 'Epic sadfaces' in 'Epic sadface: Username and password do not match any user in this service'
+2026-11-11 19:14:53,513 INFO Entrega_talento_tech - Ingreso URL
+2026-11-11 19:14:53,754 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-11 19:14:54,024 ERROR Entrega_talento_tech - Error durante prueba de login
+Traceback (most recent call last):
+  File "C:\Users\Basti\Desktop\PROYECTO FINAL\tests\test_login2.py", line 36, in test_login
+    assert "Epic sadfaces" in error
+AssertionError: assert 'Epic sadfaces' in 'Epic sadface: Username and password do not match any user in this service'
+2026-11-11 19:15:08,604 INFO Entrega_talento_tech - Ingreso URL
+2026-11-11 19:15:09,331 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-11 19:15:09,493 ERROR Entrega_talento_tech - Error durante prueba de login
+Traceback (most recent call last):
+  File "C:\Users\Basti\Desktop\PROYECTO FINAL\tests\test_login2.py", line 36, in test_login
+    assert "Epic sadfaces" in error
+AssertionError: assert 'Epic sadfaces' in 'Epic sadface: Username and password do not match any user in this service'
+2026-11-11 19:15:17,035 INFO Entrega_talento_tech - Inicio pruebas de inventorio y menus
+2026-11-11 19:15:17,035 INFO Entrega_talento_tech - Ingreso a URL
+2026-11-11 19:15:17,317 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-11 19:15:17,620 INFO Entrega_talento_tech - Prueba de cantidad de productos
+2026-11-11 19:15:17,630 INFO Entrega_talento_tech - Cantidad de productos correcta
+2026-11-11 19:15:17,630 INFO Entrega_talento_tech - Pruebas de nombres y precios de productos
+2026-11-11 19:15:17,671 INFO Entrega_talento_tech - Nombre de primer producto correcto
+2026-11-11 19:15:17,704 INFO Entrega_talento_tech - Precio de primer producto correcto
+2026-11-11 19:15:17,739 INFO Entrega_talento_tech - Nombre de segundo producto correcto
+2026-11-11 19:15:17,811 INFO Entrega_talento_tech - Precio de segundo producto correcto
+2026-11-11 19:15:17,811 INFO Entrega_talento_tech - Pruebas de interaccion con sitio
+2026-11-11 19:15:17,823 INFO Entrega_talento_tech - Prueba de interaccion con menu exitosa
+2026-11-11 19:15:17,837 INFO Entrega_talento_tech - Prueba de interaccion con filtro extitosa
+2026-11-11 19:15:25,380 INFO Entrega_talento_tech - Inicio funcionalidad de carrito
+2026-11-11 19:15:25,380 INFO Entrega_talento_tech - Ingreso URL
+2026-11-11 19:15:25,998 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-11 19:15:26,217 INFO Entrega_talento_tech - Pruebas de interaccion con carrito
+2026-11-11 19:15:26,326 INFO Entrega_talento_tech - Prueba de agregar productos exitosa
+2026-11-11 19:15:26,416 INFO Entrega_talento_tech - Nombre de producto agregado verificado correctamente
+2026-11-11 19:15:26,427 INFO Entrega_talento_tech - Precio de producto agregado verificado correctamente
+2026-11-11 19:15:28,984 INFO Entrega_talento_tech - Inicio Pruebas de API
+2026-11-11 19:15:28,984 INFO Entrega_talento_tech - Verificacion de Json
+2026-11-11 19:15:29,671 INFO Entrega_talento_tech - Verificacion nivel 1
+2026-11-11 19:15:29,671 INFO Entrega_talento_tech - Verificacion nivel 2
+2026-11-11 19:15:29,671 INFO Entrega_talento_tech - Verificacion nivel 3
+2026-11-11 19:15:29,671 INFO Entrega_talento_tech - Verificacion nivel 4
+2026-11-11 19:15:29,671 INFO Entrega_talento_tech - Verificacion de tiempo
+2026-11-11 19:15:29,671 INFO Entrega_talento_tech - Prueba verificacion de Json exitosa
+2026-11-11 19:15:29,673 INFO Entrega_talento_tech - Prueba api POST
+2026-11-11 19:15:29,674 INFO Entrega_talento_tech - Aplicando comando POST
+2026-11-11 19:15:30,176 INFO Entrega_talento_tech - Verificacion aplicacion de POST
+2026-11-11 19:15:30,176 INFO Entrega_talento_tech - Verificacion nivel 1
+2026-11-11 19:15:30,176 INFO Entrega_talento_tech - Verificacion nivel 2
+2026-11-11 19:15:30,176 INFO Entrega_talento_tech - Verificacion nivel 3
+2026-11-11 19:15:30,176 INFO Entrega_talento_tech - Verificacion nivel 4
+2026-11-11 19:15:30,176 INFO Entrega_talento_tech - Verificacion de tiempo
+2026-11-11 19:15:30,176 INFO Entrega_talento_tech - Prueba api POST exitosa 
+2026-11-11 19:15:30,178 INFO Entrega_talento_tech - Prueba api DELETE
+2026-11-11 19:15:30,178 INFO Entrega_talento_tech - Aplicando comando DELETE
+2026-11-11 19:15:30,425 INFO Entrega_talento_tech - Verificacion aplicacion de DELETE
+2026-11-11 19:15:30,425 INFO Entrega_talento_tech - Verificacion nivel 1
+2026-11-11 19:15:30,425 INFO Entrega_talento_tech - Verificacion nivel 2
+2026-11-11 19:15:30,425 INFO Entrega_talento_tech - Verificacion nivel 3 Y 4
+2026-11-11 19:15:30,425 INFO Entrega_talento_tech - Verificacion de tiempo
+2026-11-11 19:15:30,425 INFO Entrega_talento_tech - Prueba api DELETE exitosa 

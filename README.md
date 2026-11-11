@@ -16,6 +16,7 @@ Proyecto final QA Automation cursada 26221 saucedemo.com
 - CSV
 - Json
 - Requests
+- Behave
 ## Links de software utilizado
 - https://code.visualstudio.com/
 - https://www.python.org/
@@ -42,6 +43,8 @@ Proyecto final QA Automation cursada 26221 saucedemo.com
 ## Comandos utilizados para realizar pruebas con pytest
 ```
 - python -m pytest tests/ -s -v --html=reports/reporte.html 
-```
+- python -m pytest tests_sim_error/ -s -v --html=reports/reporte.html #test de simulacro de error #
 
+```
+## Comandos uti
                

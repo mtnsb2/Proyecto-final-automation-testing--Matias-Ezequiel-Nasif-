@@ -1,0 +1,52 @@
+2026-11-11 19:17:04,150 INFO Entrega_talento_tech - Inicio pruebas de login
+2026-11-11 19:17:09,242 INFO Entrega_talento_tech - Ingreso URL
+2026-11-11 19:17:09,972 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-11 19:17:10,150 INFO Entrega_talento_tech - Prueba de login exitosa
+2026-11-11 19:17:17,559 INFO Entrega_talento_tech - Ingreso URL
+2026-11-11 19:17:17,791 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-11 19:17:17,985 INFO Entrega_talento_tech - Prueba de mensaje de error exitosa
+2026-11-11 19:17:25,470 INFO Entrega_talento_tech - Inicio pruebas de inventorio y menus
+2026-11-11 19:17:25,471 INFO Entrega_talento_tech - Ingreso a URL
+2026-11-11 19:17:25,783 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-11 19:17:26,027 INFO Entrega_talento_tech - Prueba de cantidad de productos
+2026-11-11 19:17:26,043 INFO Entrega_talento_tech - Cantidad de productos correcta
+2026-11-11 19:17:26,043 INFO Entrega_talento_tech - Pruebas de nombres y precios de productos
+2026-11-11 19:17:26,077 INFO Entrega_talento_tech - Nombre de primer producto correcto
+2026-11-11 19:17:26,106 INFO Entrega_talento_tech - Precio de primer producto correcto
+2026-11-11 19:17:26,122 INFO Entrega_talento_tech - Nombre de segundo producto correcto
+2026-11-11 19:17:26,129 INFO Entrega_talento_tech - Precio de segundo producto correcto
+2026-11-11 19:17:26,129 INFO Entrega_talento_tech - Pruebas de interaccion con sitio
+2026-11-11 19:17:26,135 INFO Entrega_talento_tech - Prueba de interaccion con menu exitosa
+2026-11-11 19:17:26,140 INFO Entrega_talento_tech - Prueba de interaccion con filtro extitosa
+2026-11-11 19:17:33,602 INFO Entrega_talento_tech - Inicio funcionalidad de carrito
+2026-11-11 19:17:33,602 INFO Entrega_talento_tech - Ingreso URL
+2026-11-11 19:17:33,850 INFO Entrega_talento_tech - Ingreso de credenciales
+2026-11-11 19:17:34,030 INFO Entrega_talento_tech - Pruebas de interaccion con carrito
+2026-11-11 19:17:34,107 INFO Entrega_talento_tech - Prueba de agregar productos exitosa
+2026-11-11 19:17:34,181 INFO Entrega_talento_tech - Nombre de producto agregado verificado correctamente
+2026-11-11 19:17:34,189 INFO Entrega_talento_tech - Precio de producto agregado verificado correctamente
+2026-11-11 19:17:36,751 INFO Entrega_talento_tech - Inicio Pruebas de API
+2026-11-11 19:17:36,751 INFO Entrega_talento_tech - Verificacion de Json
+2026-11-11 19:17:37,221 INFO Entrega_talento_tech - Verificacion nivel 1
+2026-11-11 19:17:37,221 INFO Entrega_talento_tech - Verificacion nivel 2
+2026-11-11 19:17:37,222 INFO Entrega_talento_tech - Verificacion nivel 3
+2026-11-11 19:17:37,222 INFO Entrega_talento_tech - Verificacion nivel 4
+2026-11-11 19:17:37,222 INFO Entrega_talento_tech - Verificacion de tiempo
+2026-11-11 19:17:37,222 INFO Entrega_talento_tech - Prueba verificacion de Json exitosa
+2026-11-11 19:17:37,224 INFO Entrega_talento_tech - Prueba api POST
+2026-11-11 19:17:37,224 INFO Entrega_talento_tech - Aplicando comando POST
+2026-11-11 19:17:37,710 INFO Entrega_talento_tech - Verificacion aplicacion de POST
+2026-11-11 19:17:37,710 INFO Entrega_talento_tech - Verificacion nivel 1
+2026-11-11 19:17:37,710 INFO Entrega_talento_tech - Verificacion nivel 2
+2026-11-11 19:17:37,710 INFO Entrega_talento_tech - Verificacion nivel 3
+2026-11-11 19:17:37,710 INFO Entrega_talento_tech - Verificacion nivel 4
+2026-11-11 19:17:37,710 INFO Entrega_talento_tech - Verificacion de tiempo
+2026-11-11 19:17:37,710 INFO Entrega_talento_tech - Prueba api POST exitosa 
+2026-11-11 19:17:37,712 INFO Entrega_talento_tech - Prueba api DELETE
+2026-11-11 19:17:37,712 INFO Entrega_talento_tech - Aplicando comando DELETE
+2026-11-11 19:17:37,978 INFO Entrega_talento_tech - Verificacion aplicacion de DELETE
+2026-11-11 19:17:37,978 INFO Entrega_talento_tech - Verificacion nivel 1
+2026-11-11 19:17:37,978 INFO Entrega_talento_tech - Verificacion nivel 2
+2026-11-11 19:17:37,978 INFO Entrega_talento_tech - Verificacion nivel 3 Y 4
+2026-11-11 19:17:37,978 INFO Entrega_talento_tech - Verificacion de tiempo
+2026-11-11 19:17:37,978 INFO Entrega_talento_tech - Prueba api DELETE exitosa 
