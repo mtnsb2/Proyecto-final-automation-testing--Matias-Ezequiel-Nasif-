@@ -25,7 +25,7 @@ jobs:
                 pip install -r requirements.txt
 
             - name: Ejecutar pruebas
-              run: pytest --ignore="old tests" --ignore=tests_sim_error --html=report.html --self-contained-html  #la prueba funciona sin --ignore=tests_sim_error tambien 
+              run: pytest --ignore="old tests" --ignore=tests_sim_error --html=report.html --self-contained-html  #la prueba funciona sin --ignore=tests_sim_error tambien ,crea el reporte html con screenshots en github
 
             - name: Guardar reporte como artefacto
               if: always()
