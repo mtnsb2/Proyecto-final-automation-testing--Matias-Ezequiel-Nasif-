@@ -32,7 +32,7 @@ Proyecto final QA Automation cursada 26221 saucedemo.com
 ## Comandos utilizados para git
 ```
 -  git config --global user.name " "  #NOMBRE DE USUARIO
--  git config --global user.emal " "  #EMAIL UTILIZADO
+-  git config --global user.email " "  #EMAIL UTILIZADO
 -  git init
 -  git add .
 -  git add README.md
