@@ -1,7 +1,7 @@
 name: Tests automatizados
 
 on:
-   push:
+    push:
     branches:
         -main
          
