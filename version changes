@@ -1,58 +1,160 @@
-commit 4afdd68200852c6bb4b8ae07104caf558aa9a417
+[33mcommit f17409cacb3e05c0f2c3e36f81fed439e6bf9fd2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Matias <mtnsb2@gmail.com>
+Date:   Thu Nov 12 14:10:57 2026 -0300
+
+    text fix 10
+
+[33mcommit 2dd508c6d41f9598f9fc5809f9476ce0d7a46307[m
+Author: Matias <mtnsb2@gmail.com>
+Date:   Thu Nov 12 14:08:20 2026 -0300
+
+    text fix 9
+
+[33mcommit e4a7f867a000a6f1d759674a5976d7136be0ce57[m
+Author: Matias <mtnsb2@gmail.com>
+Date:   Thu Nov 12 14:06:02 2026 -0300
+
+    text fix 8
+
+[33mcommit cee9c340338fcbbb231b82f75e792fcc4ef8ff17[m
+Author: Matias <mtnsb2@gmail.com>
+Date:   Thu Nov 12 13:58:29 2026 -0300
+
+    text fix 7
+
+[33mcommit 449cf825d9a54b531148fa7828e427c9d28619db[m
+Author: Matias <mtnsb2@gmail.com>
+Date:   Thu Nov 12 13:52:16 2026 -0300
+
+    text fix 6
+
+[33mcommit 6a57717988407269b003b3313c8e275745729577[m
+Author: Matias <mtnsb2@gmail.com>
+Date:   Thu Nov 12 13:47:39 2026 -0300
+
+    text fix 5
+
+[33mcommit 81d70242922401b168f92a8157959a551c9c8ef1[m
+Author: Matias <mtnsb2@gmail.com>
+Date:   Wed Nov 11 21:38:45 2026 -0300
+
+    test fix 5
+
+[33mcommit 1c089bc219747909eaca4195e018541d2eae0193[m
+Author: Matias <mtnsb2@gmail.com>
+Date:   Wed Nov 11 21:36:10 2026 -0300
+
+    test fix 4
+
+[33mcommit cc246deba05e7990e6a16c9775408f7173a93840[m
+Author: Matias <mtnsb2@gmail.com>
+Date:   Wed Nov 11 21:33:53 2026 -0300
+
+    test fix 3
+
+[33mcommit e69f756fe77fd00f993011270f3f4f6fa1088a96[m
+Author: Matias <mtnsb2@gmail.com>
+Date:   Wed Nov 11 21:30:02 2026 -0300
+
+    test fix 2
+
+[33mcommit 1ffc177d8b53041c30b244e3ab1a643782cbf4df[m
+Author: mtnsb2 <mtnsb2@gmail.com>
+Date:   Wed Nov 11 21:27:46 2026 -0300
+
+    Update tests.yml
+
+[33mcommit 7f19dd6a9817f6db775725d31ac73bdd9a9fae5c[m
+Author: Matias <mtnsb2@gmail.com>
+Date:   Wed Nov 11 21:24:04 2026 -0300
+
+    fix test
+
+[33mcommit c18eb40d8a398ba86cae7358eb94562d413c9318[m
+Author: Matias <mtnsb2@gmail.com>
+Date:   Wed Nov 11 21:18:27 2026 -0300
+
+    1
+
+[33mcommit a3f0014c4342c9097cc3d2b9d1278c1869aed67e[m
+Author: Matias <mtnsb2@gmail.com>
+Date:   Wed Nov 11 21:15:38 2026 -0300
+
+    1
+
+[33mcommit acd0dd6ab9ff995df7e80cd0908549bda30bdbd6[m
+Author: Matias <mtnsb2@gmail.com>
+Date:   Wed Nov 11 20:59:58 2026 -0300
+
+    Carga de test de simulacro, bug fix behave e implementacio CI/CD github
+
+[33mcommit c207347c343b180a19a0c20c0a64dc6f1fcf9807[m[33m ([m[1;31morigin/Proyecto-Final[m[33m)[m
+Author: Matias <mtnsb2@gmail.com>
+Date:   Thu Nov 5 21:36:22 2026 -0300
+
+    Proyecto Final Hotfix
+
+[33mcommit 3a7e42fdeffa22f1913f8464eb5659f6580508bd[m
+Author: Matias <mtnsb2@gmail.com>
+Date:   Thu Nov 5 21:16:13 2026 -0300
+
+    version changes
+
+[33mcommit 4afdd68200852c6bb4b8ae07104caf558aa9a417[m
 Author: Matias <mtnsb2@gmail.com>
 Date:   Thu Nov 5 21:12:01 2026 -0300
 
     Actualizacion Proyect Final
 
-commit 4883f977a2f5248fca4dac3305a0a3e597fc8ca5
+[33mcommit 4883f977a2f5248fca4dac3305a0a3e597fc8ca5[m
 Author: Matias <mtnsb2@gmail.com>
 Date:   Thu Nov 5 15:10:20 2026 -0300
 
     Version changes update
 
-commit a0d3eac535a7aff5016cbede0d9ad1a61b2c24d4
+[33mcommit a0d3eac535a7aff5016cbede0d9ad1a61b2c24d4[m
 Author: Matias <mtnsb2@gmail.com>
 Date:   Thu Nov 5 14:50:11 2026 -0300
 
     Version inicial Proyect Final
 
-commit 2e1534238594438c3e28fa83334b5c0367c4378a
+[33mcommit 2e1534238594438c3e28fa83334b5c0367c4378a[m
 Author: Matias <mtnsb2@gmail.com>
 Date:   Wed Oct 7 20:20:43 2026 -0300
 
     Prentrega 1.02 ,bugfixes
 
-commit e36a13c8b597f37632e4219eeec2171d9fb71513
+[33mcommit e36a13c8b597f37632e4219eeec2171d9fb71513[m
 Author: Matias <mtnsb2@gmail.com>
 Date:   Mon Oct 5 19:36:12 2026 -0300
 
     Preengtrega 1.01 , bug fixes
 
-commit 48a75008a261a3657de5f1db7a200c609686f43c
+[33mcommit 48a75008a261a3657de5f1db7a200c609686f43c[m
 Author: Matias <mtnsb2@gmail.com>
 Date:   Mon Oct 5 18:54:17 2026 -0300
 
     Log de version final
 
-commit 2fb9e0a6023dc72888304686900b02b7c5f5daeb
+[33mcommit 2fb9e0a6023dc72888304686900b02b7c5f5daeb[m
 Author: Matias <mtnsb2@gmail.com>
 Date:   Mon Oct 5 18:51:53 2026 -0300
 
     Preentrega 1.0 README y log de versiones
 
-commit 05a76c59b566f889686bd94c57492dd916be7b16
+[33mcommit 05a76c59b566f889686bd94c57492dd916be7b16[m
 Author: Matias <mtnsb2@gmail.com>
 Date:   Mon Oct 5 18:49:42 2026 -0300
 
     Preentrega 1.0 test carrito
 
-commit 24a5bdb46606631587e3eb5de7919872acab6790
+[33mcommit 24a5bdb46606631587e3eb5de7919872acab6790[m
 Author: Matias <mtnsb2@gmail.com>
 Date:   Mon Oct 5 18:47:38 2026 -0300
 
     Preentrega 1.0 test inventorio
 
-commit c40371aac4d694c728a964e36488e41e42c2d94a
+[33mcommit c40371aac4d694c728a964e36488e41e42c2d94a[m
 Author: Matias <mtnsb2@gmail.com>
 Date:   Mon Oct 5 18:43:36 2026 -0300
 

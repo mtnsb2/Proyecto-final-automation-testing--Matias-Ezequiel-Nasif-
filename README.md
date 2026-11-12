@@ -27,11 +27,12 @@ Proyecto final QA Automation cursada 26221 saucedemo.com
 - pip install -U pytest
 - pip install selenium
 - pip install requests
+- pip install behave
 ```
 ## Comandos utilizados para git
 ```
 -  git config --global user.name " "  #NOMBRE DE USUARIO
--  git config --global user.emal " "    #EMAIL UTILIZADO
+-  git config --global user.emal " "  #EMAIL UTILIZADO
 -  git init
 -  git add .
 -  git add README.md
@@ -46,5 +47,5 @@ Proyecto final QA Automation cursada 26221 saucedemo.com
 - python -m pytest tests_sim_error/ -s -v --html=reports/reporte.html #test de simulacro de error #
 
 ```
-## Comandos uti
-               
+## Extra
+- Carpeta tests_sim_error contiene pruebas con errores para mostrar el funcionamiento correcto del reporte html y captura de screenshots ,las pruebas de error estan deshabilitadas via CI/CD pero general el reporte correcto si se habilitan (borrando o comentando el codigo "--ignore=tests_sim_error" en tests.yml)
