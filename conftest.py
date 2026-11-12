@@ -8,7 +8,7 @@ from datetime import datetime
 @pytest.fixture
 def driver():
     options = webdriver.FirefoxOptions()
-    options.add_argument("-headless")
+    options.add_argument("-headless=new")
     options.add_argument("-private")
     driver = webdriver.Firefox(options=options)
     
