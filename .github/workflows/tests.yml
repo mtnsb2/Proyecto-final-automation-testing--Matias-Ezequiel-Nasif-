@@ -2,8 +2,8 @@ name: Tests automatizados
 
 on:
     push:
-        branches:
-            -main
+      branches:
+          -main
          
 
 jobs:
