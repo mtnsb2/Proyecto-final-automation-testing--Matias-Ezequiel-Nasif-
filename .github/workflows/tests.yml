@@ -28,6 +28,7 @@ jobs:
               run: pytest --ignore="old tests" --html=report.html --self-contained-html
 
             - name: Guardar reporte como artefacto
+              if: always()
               uses: actions/upload-artifact@v4
               with:
                 name: reporte-pytest-html
