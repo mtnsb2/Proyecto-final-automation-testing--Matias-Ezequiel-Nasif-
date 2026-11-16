@@ -48,4 +48,4 @@ Proyecto final QA Automation cursada 26221 saucedemo.com
 
 ```
 ## Extra
-- Carpeta tests_sim_error contiene pruebas con errores para mostrar el funcionamiento correcto del reporte html y captura de screenshots ,las pruebas de error estan deshabilitadas via CI/CD pero general el reporte correcto si se habilitan (borrando o comentando el codigo "--ignore=tests_sim_error" en tests.yml)
+- Carpeta tests_sim_error contiene pruebas con errores para mostrar el funcionamiento correcto del reporte html y captura de screenshots ,las pruebas de error estan deshabilitadas via CI/CD pero general el reporte correcto si se habilitan (borrando o comentando el codigo "--ignore=tests_sim_error" en tests.yml).
